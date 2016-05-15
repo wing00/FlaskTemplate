@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %}Title{% endblock %}
+
+
+{% block content %}
+    <header id="top" class="header">
+        {% include 'header.html' %}
+    </header>
+
+    <section id="about" class="about">
+        {% include 'about.html' %}
+    </section>
+
+    <section id="jumbo" class="jumbo">
+        {% include 'jumbo.html' %}
+    </section>
+
+    <section id="services" class="services bg-primary">
+        {% include 'services.html' %}
+    </section>
+
+    <aside class="call-to-action bg-primary">
+        {% include 'action.html' %}
+    </aside>
+
+    <section id="portfolio" class="portfolio">
+        {% include 'portfolio.html' %}
+    </section>
+
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h1>Vertically Centered Text</h1>
+        </div>
+    </aside>
+
+    <footer id="contact">
+        {% include 'footer.html' %}
+    </footer>
+
+{% endblock %}
+
+
